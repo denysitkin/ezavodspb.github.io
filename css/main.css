@@ -90,6 +90,7 @@ body {
 
 .header-content {
   display: flex;
+  flex: 0 50% 0;
 }
 
 .header-content__middle {
@@ -118,11 +119,41 @@ body {
   margin-left: 10px;
 }
 
+.nav__item:nth-child(2) {
+  margin-left: 10px;
+}
+
+.nav__item:nth-child(10) {
+  margin-left: 10px;
+}
+
 .nav-items li a:hover {
   color: #EE3F3F;
 }
 
+.nav-items li:nth-child(1) .btn-home::after {
+  content: "";
+  position: absolute;
+  content: "";
+  font-family: "FontAwesome";
+  font-size: 10px;
+  margin-top: 3px;
+  margin-left: 3px;
+  color: inherit;
+}
+
 .nav-items li:nth-child(2) .btn-sale::after {
+  content: "";
+  position: absolute;
+  content: "";
+  font-family: "FontAwesome";
+  font-size: 10px;
+  margin-top: 3px;
+  margin-left: 3px;
+  color: inherit;
+}
+
+.nav-items li:nth-child(9) .btn-freelance::after {
   content: "";
   position: absolute;
   content: "";
@@ -222,6 +253,8 @@ input[type=search]::placeholder {
   margin-left: 30px;
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
+  display: inline;
+  float: right;
 }
 
 .lang-btn {
