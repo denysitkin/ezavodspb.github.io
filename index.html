@@ -3,204 +3,294 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WORLDWIDE OIL PORTAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,100&family=Open+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4709a81ed9.js" crossorigin="anonymous"></script>
-    <title>Worldwide Oil Portal</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <section class="portal-main">
-
-        <header class="header">
-
-            <div class="container">
-
-                <div class="header-content">
-
-                <div class="header-content__middle">
-
-                    <div class="header-content__logo">
-
-                        <img src="img/logo.png" alt="logo">
-
-                    </div>
-
-                    <div class="header-content__nav">
-
-                        <div class="header-content__title">
-
-                            WORLDWIDE OIL PORTAL
-    
-                        </div>
-    
-                        <div class="header-content__search">
-    
-                            <form action="" method="get">
-
-                                <span>
-    
-                                    <img src="img/search.svg" alt="search">
-    
-                                </span>
-
-                                <input name="s" id="search" placeholder="Search" type="search">
-
-                            </form>
-    
-                        </div>
-
-                        <nav class="nav">
-
-                            <ul class="nav-items">
-
-                               <li class="nav__item"><a class="btn-home" href="">Home</a>
-                            
-                                <ul class="submenu">
-                                    <li><a href="">About us</a></li>
-                                </ul>
-                            
-                                </li>
-                               <li class="nav__item"><a class="btn-sale" href="">Sale</a>
-                            
-                                <ul class="submenu">
-                                    <li><a href="">Equipment for Sale</a></li>
-                                    <li><a href="">Business for Sale</a></li>
-                                </ul>
-                            
-                                </li>
-                               <li class="nav__item"><a href="">Rent</a></li>
-                               <li class="nav__item"><a href="">Service</a></li>
-                               <li class="nav__item"><a href="">Tender</a></li>
-                               <li class="nav__item"><a href="">Auction</a></li>
-                               <li class="nav__item"><a href="">Stocks</a></li>
-                               <li class="nav__item"><a href="">Investments</a></li>
-                               <li class="nav__item"><a class="btn-freelance" href="">Job portal</a>
-                            
-                                <ul class="submenu">
-                                    <li><a href="">Job</a></li>
-                                    <li><a href="">Freelance</a></li>
-                                </ul>
-                            
-                                </li>
-                               <li class="nav__item"><a href="">News</a></li>
-                               <li class="nav__item"><a href="">Branches</a></li>
-                               <li class="nav__item"><a href="">Contacts</a></li>
-                               <li class="nav__item"><a href="">Forum</a></li>
-                               <li class="nav__item"><a href="">Help</a></li>
-
-                            </ul>
-
-                        </nav>
-                    
-                    </div>
-
-                    </div> <!-- .header-content__middle -->
-
-                    <div class="header-content__end">
-
-                        <div class="header-user">
-
-                            <div class="header-user__enter">
-
-                                <div class="header-user__lang">
-
-                                    <div class="header-dropdown">
-    
-                                        <div class="header-dropdown__btn">
-    
-                                            <ul class="header-dropdown__lang">
-
-                                                <li><a class="lang-btn" href="">En</a>
-                                                
-                                                    <ul class="submenu-lang">
-                                                        <li><a href="">Ru</a></li>
-                                                        <li><a href="">Ua</a></li>
-                                                        <li><a href="">Ua</a></li>
-                                                        <li><a href="">Ua</a></li>
-                                                    </ul>
-                                                    
-                                                </li>
-    
-                                             </ul>
-    
-                                        </div>
-    
-                                      </div> 
-    
-                                </div>
-    
-                                <div class="header-user__log">
-    
-                                    <div class="header-log">
-    
-                                       <a href="">Log in</a>   
-    
-                                    </div>
-
-                                    <span>|</span>
-    
-                                    <div class="header-reg">
-
-                                        <ul class="header-reg__down">
-
-                                            <li><a class="reg-item" href="">Register</a>
-                                            
-                                                <ul class="submenu-reg">
-                                                    <li><a href="">As user</a></li>
-                                                    <li><a href="">As company</a></li>
-                                                </ul>
-                                            
-                                            </li>
-
-                                        </ul>
-    
-                                    </div>
-    
-                                </div>
-
-                            </div>
-
-                            <div class="header-user__info">
-
-                                <div class="header-info__reg">
-
-                                    Registered
-
-                                </div>
-
-                                <div class="header-info__about">
-
-                                    Companies: 20 from 9 countries <br>
-                                    Users: 48 from 13 countries <br>
-                                    Online: 1       
-
-                                </div>
-
-                            </div>
-
-                        </div> <!-- .header-user -->
+<header class="header">
+  <div class='header__wrapper _wrapper'>
+    <div class="header__content">
+      <div class="header__container">
+      <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" class="header__logo"></picture>
+      <div class="header__main">
+      <div class="header__title">
+        WORLDWIDE OIL PORTAL
+      </div>
+      <form action="" method="get" class="header__search-forms">
+        <input type="search" name="search" placeholder="Search">
+      </form>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__item miniSel"><a href="" class="header__link selector">Home</a></li>
+          <div class="hiddenMenu hiddenMenu_1">
+            <li class="header__item hide"><a href="" class="header__link">About us</a></li>
+          </div>
+          <li class="header__item miniSel"><a href="" class="header__link selector">Sale</a></li>
+          <div class="hiddenMenu hiddenMenu_2">
+            <li class="header__item hide"><a href="" class="header__link">Equipment for Sale</a></li>
+            <li class="header__item hide"><a href="" class="header__link">Business for Sale</a></li>
+          </div>
+          <li class="header__item"><a href="" class="header__link">Rent</a></li>
+          <li class="header__item"><a href="" class="header__link">Service</a></li>
+          <li class="header__item"><a href="" class="header__link">Tender</a></li>
+          <li class="header__item"><a href="" class="header__link">Auction</a></li>
+          <li class="header__item"><a href="" class="header__link">Stocks</a></li>
+          <li class="header__item"><a href="" class="header__link">Investments</a></li>
+          <li class="header__item miniSel"><a href="" class="header__link selector">Job portal</a></li>
+          <div class="hiddenMenu hiddenMenu_3">
+            <li class="header__item hide"><a href="" class="header__link">Job</a></li>
+            <li class="header__item hide"><a href="" class="header__link">Freelance</a></li>
+          </div>
+          <li class="header__item"><a href="" class="header__link">News</a></li>
+          <li class="header__item"><a href="" class="header__link">Branches</a></li>
+          <li class="header__item"><a href="" class="header__link">Contacts</a></li>
+          <li class="header__item"><a href="" class="header__link">Forum</a></li>
+        </ul>
+      </nav>
+      </div>
+      </div>
+      <div class="header__user user">
+        <a href="" class="user__button">
+          <picture><source srcset="img/icons/icons.svg#user" type="image/webp"><img src="img/icons/icons.svg#user"></picture>
+        </a>
+      </div>
+      <div class="header__burger burger">
+       <div class="burger__button">
+         <picture><source srcset="img/icons/icons.svg#burger" type="image/webp"><img src="img/icons/icons.svg#burger"></picture>
+        </div>
+        <ul class="burger__list">
+          <li class="burger__item"><a href="" class="burger__link">Home</a></li>
+          <li class="burger__item"><a href="" class="burger__link">About us</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Equipment for sale</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Business for sale</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Rent</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Service</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Tender</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Auction</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Stocks</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Investments</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Job</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Freelance</a></li>
+          <li class="burger__item"><a href="" class="burger__link">News</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Branches</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Contacts</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Forum</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__info">
+      <div class="header__toggle-buttons">
+        <div class="header__language-picker">
+          <div class="header__current-language selector">
+            En
+          </div>
+          <div class="header__language-list">
+            <a href="" class="lang Ru">Ru</a>
+            <a href="" class="lang Ua">Ua</a>
+            <a href="" class="lang Ua">Ua</a>
+            <a href="" class="lang Ua">Ua</a>
+          </div>
+        </div>
+        <div class="header__account-buttons">
+          <a href="" class="header__acount-link">Login</a>
+          <span class="header__line">|</span>
+          <div class="header__acount-link selector">Register</div>
+          <div class="header__account-content">
+            <a href="" class="aact User">User</a>
+            <a href="" class="aact Comapny">Company</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__text">
+        <div class="header__info-word">
+          REGISTERED
+        </div>
+        <div class="header__statistics">
+          Companies: 20 from 9 countries<br/>Users: 48 from 13 countries<br/>Online: 1
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
 
-
-                    </div> <!-- .header-content__end -->
-
-                </div> <!-- .header-content -->
-    
-            </div> <!-- .container -->
-
-        </header> <!-- .header -->
-
-        <section class="portal-video">
-
-            <video width="100%" height="100%" autoplay="true" loop="true" muted="muted">
-                <source src="img/1.mp4">
-            </video>
-
+    <main>
+        <section class="video">
+            <button type="button" name="button" class="catalog">Download catalog</button>
+            <button type="button" name="button" class="presentation">Download presentation</button>
         </section>
 
-    </section> <!-- .portal-main -->
+        <section>
+            <div class="container">
+                <h2>New products</h2>
+                <div class="products">
+                    <div class="product_item">
+                        <div class="img_wrap">
+                            <img src="img/img.jpg" alt="">
+                        </div>
+                        <p class="product_name">Drilling Rigs - Offshere</p>
+                        <button type="button" name="button" class="product_button">Join auction</button>
+                    </div>
+                    <div class="product_item">
+                        <div class="img_wrap">
+                            <img src="img/img.jpg" alt="">
+                        </div>
+                        <p class="product_name">Drilling Rigs - Offshere</p>
+                        <button type="button" name="button" class="product_button">Join auction</button>
+                    </div>
+                    <div class="product_item">
+                        <div class="img_wrap">
+                            <img src="img/img.jpg" alt="">
+                        </div>
+                        <p class="product_name">Drilling Rigs - Offshere</p>
+                        <button type="button" name="button" class="product_button">Join auction</button>
+                    </div>
+                    <div class="product_item">
+                        <div class="img_wrap">
+                            <img src="img/img.jpg" alt="">
+                        </div>
+                        <p class="product_name">Drilling Rigs - Offshere</p>
+                        <button type="button" name="button" class="product_button">Join auction</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+
+                <div class="container">
+                    <div class="catalog_sec">
+                        <h2>Catalog</h2>
+                        <div class="catalog_slider">
+                            <div class="slider_item_wrap">
+                                <div class="slider_item">
+                                    <div class="slider_item_bgc">
+                                        <p class="slider_title">ADAPTER SPOOL 21 1/4” spacerspool</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                        <button type="button" name="button">Download catalog</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider_item_wrap">
+                                <div class="slider_item">
+                                    <div class="slider_item_bgc">
+                                        <p class="slider_title">ADAPTER SPOOL 21 1/4” spacerspool</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                        <button type="button" name="button">Download catalog</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider_item_wrap">
+                                <div class="slider_item">
+                                    <div class="slider_item_bgc">
+                                        <p class="slider_title">ADAPTER SPOOL 21 1/4” spacerspool</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                        <button type="button" name="button">Download catalog</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider_item_wrap">
+                                <div class="slider_item">
+                                    <div class="slider_item_bgc">
+                                        <p class="slider_title">ADAPTER SPOOL 21 1/4” spacerspool</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                        <button type="button" name="button">Download catalog</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider_item_wrap">
+                                <div class="slider_item">
+                                    <div class="slider_item_bgc">
+                                        <p class="slider_title">ADAPTER SPOOL 21 1/4” spacerspool</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                        <button type="button" name="button">Download catalog</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+
+<footer>
+    <div class="container">
+        <div class="footer_main">
+            <div>
+                <div>
+                    <p class="footer_title">Information</p><br>
+                    <p><a href="">Home</a></p>
+                    <p><a href="">Equipment for sale</a></p>
+                    <p><a href="">Equipment for rent</a></p>
+                    <p><a href="">Business for sale</a></p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p><a href="">Join Auction</a></p>
+                    <p><a href="">Auctions Calendar</a></p>
+                    <p><a href="">Watch list</a></p>
+                    <p><br><a href="">Oli well Drilling services</a></p>
+                    <p><a href="">Equipment repair services</a></p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p><a href="">Join Auction</a></p>
+                    <p><a href="">Auctions Calendar</a></p>
+                    <p><a href="">Watch list</a></p>
+                    <p><br><a href="">Oli well Drilling services</a></p>
+                    <p><a href="">Equipment repair services</a></p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p class="footer_title">Contacts</p>
+                    <p><a href="">2323, Dubai, Jebel Ali</a><br><a href="">+971506952288</a><br><a href="">info@aligmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer__line">WORLDWIDE OIL PORTAL  2020</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.catalog_slider').slick({
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 2.35,
+            	slidesToScroll: 1,
+                responsive: [
+        	    {
+        	      breakpoint: 1000,
+        	      settings: {
+        	        slidesToShow: 1,
+        	      }
+              },
+              {
+                breakpoint: 500,
+                settings: {
+                  slidesToShow: 1,
+                  centerMode: false,
+                }
+            }
+            ]
+          });
+        });
+    </script>
 </body>
 </html>
